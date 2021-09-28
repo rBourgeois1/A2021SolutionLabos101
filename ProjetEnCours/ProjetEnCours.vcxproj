@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Labo04-8Triangle.cpp" />
+    <ClCompile Include="calculs.cpp" />
+    <ClCompile Include="Labo05-3FonctionTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="calculs.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
