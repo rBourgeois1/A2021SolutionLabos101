@@ -24,3 +24,19 @@ double calculerMax(double valeur1, double valeur2, double valeur3)
 
    return resultat;
 }
+
+int calculerFactorielle(int valeur)
+{
+   int resultat = 1;
+
+
+   for (int compteur = 1; compteur <= valeur; compteur++)
+   {
+      resultat *= compteur;
+
+
+   }
+
+
+   return resultat;
+}

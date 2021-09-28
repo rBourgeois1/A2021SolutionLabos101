@@ -23,15 +23,18 @@ int main()
 
 
    // Déclaration des variables
+   int nb;
+   /*
    double nb1;
    double nb2;
    double nb3;
    double resultat;
-
+   */
    cout << " -------- Test de la fonction calculerMax --------\n";
    // Demander à l'utilisateur 3 nombres et appeler la fonction calculerMax qui retourne le plus grand des 3 nombres
    // qui sont passés en paramètre à la fonction
 
+   /*
    cout << "Veuillez entrer un premier nombre: ";
    cin >> nb1;
    cout << "Veuillez entrer un deuxième nombre: ";
@@ -40,6 +43,12 @@ int main()
    cin >> nb3;
 
    cout << "le plus grand nombre est: " << calculerMax(nb1, nb2, nb3) << endl;
+   */
+
+   cout << "Veuillez entrer un nombre: ";
+   cin >> nb;
+   cout << calculerFactorielle(nb) << endl;
+
 
    system("pause");
    return 0;
